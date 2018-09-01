@@ -1,7 +1,7 @@
-package servlets;
+package Servlets;
 
-import utils.Filter;
-import utils.FilterPredicates;
+import Utils.Filter;
+import Utils.FilterPredicates;
 import dao.ConnectionFactory;
 import dao.FlatDAO;
 import dao.FlatDAOimpl;

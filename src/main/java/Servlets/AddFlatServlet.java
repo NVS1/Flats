@@ -1,4 +1,4 @@
-package servlets;
+package Servlets;
 
 import dao.ConnectionFactory;
 import dao.FlatDAO;
@@ -23,7 +23,7 @@ public class AddFlatServlet extends HttpServlet {
         String price = request.getParameter("price");
 
         if (district.isEmpty() || address.isEmpty() || area.isEmpty() || numOfRoom.isEmpty() || price.isEmpty()) {
-            response.getWriter().print("Error. fields address or district not filled");
+            response.getWriter().print("Error. fields not filled");
         }
         Flat flat = new Flat(district,address);
         flat.setArea(Integer.parseInt(area));

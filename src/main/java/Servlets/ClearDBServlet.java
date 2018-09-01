@@ -1,4 +1,4 @@
-package servlets;
+package Servlets;
 
 import dao.ConnectionFactory;
 import dao.FlatDAO;
